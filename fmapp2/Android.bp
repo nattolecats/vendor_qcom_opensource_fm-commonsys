@@ -7,8 +7,9 @@ android_app {
     certificate: "platform",
     jni_libs: ["libqcomfm_jni"],
     libs: ["qcom.fmradio"],
-    platform_apis: true,
+    platform_apis: false,
     aaptflags: ["--legacy"],
     product_specific: true,
     required: ["qcom.fmradio.xml"],
+    sdk_version: "core_platform",
 }
